@@ -1,4 +1,4 @@
-# install puppet-lint using puppet
+# install puppet-lint using Puppet
 
 package { 'puppet-lint':
   ensure   => '2.1.0',
