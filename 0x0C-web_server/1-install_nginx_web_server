@@ -7,7 +7,7 @@ sudo apt-get install -y nginx
 mkdir /etc/nginx/html
 
 # creating sample page
-echo "Hello World" > /etc/nginx/html/index.html
+echo "Hello World!" > /etc/nginx/html/index.html
 
 # creating server block files
 echo "server {
@@ -15,7 +15,7 @@ echo "server {
 	listen [::]:80 default_server;
 
 	root /etc/nginx/html;
-	index index.html index.htm index.nginx-debian.html;
+	index index_html index.htm index.nginx-debian.html;
 
 	server_name _;
 }
